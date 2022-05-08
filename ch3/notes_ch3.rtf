@@ -71,7 +71,40 @@ Refactoring is often an iterative process. Constructs that had made sense previo
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf6 \cb3 \outl0\strokewidth0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf2 \cb3 \outl0\strokewidth0 \strokec2 \
+
+\f0\b \cf2 \cb3 \ul \ulc2 \outl0\strokewidth0 \strokec2 Functional Programming:
+\f1\b0 \ulnone \
+\
+See examples in repo of functional programming, but can include lambda functions or list comprehensions. These offer performance benefits over procedural programming styles like for-loops. (Think of benefits in R for using apply family of functions over for-loops).\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf6 \cb3 \outl0\strokewidth0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf2 \cb3 \ul \ulc2 \outl0\strokewidth0 \strokec2 Declarative Programming:
+\f1\b0 \ulnone \
+\
+Declarative programming focuses on declaring parameters of a task without specifying how to accomplish it\'85 The details of accomplishing the task are mostly or fully abstracted from the developer. This is useful when you need to repeat a highly parametrized task with only slight variations to the parameters. See repo for examples of procedural vs declarative programming.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf6 \cb3 \outl0\strokewidth0 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \cf2 \cb3 \outl0\strokewidth0 \strokec2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf2 \
+
+\f0\b \ul When to NOT use abstractions:\
+
+\f1\b0 \ulnone \
+If an abstraction is no longer making things clear and easy, and is causing the developer to bend over backwards to make something work, consider removing the friction or replacing it with a new approach. \ul If you can\'92t adapt to an environment, change the environment\ulnone .\
+\
+
+\f2\i If for example, an interface to a third party package causes friction and you\'92re not in a position to update the third party software, you can create am abstraction around the interface for your own code to use. 
+\f3\b This is called an \ul adapter
+\f2\b0 \ulnone  in software. 
+\f1\i0 If you can\'92t change all the electrical coords in France, bring an adapter so your electronics will work. 
+\f2\i \
+
+\f1\i0 \
 \
 \
 \
